@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+div.img-container {
+  width: 33.33%;
+  height: 200px;
+  float: left;
+  padding: 5px;
+}
+img {
+  /* height: 100%; */
+}
+.clearfix {
+  overflow: auto;
+}

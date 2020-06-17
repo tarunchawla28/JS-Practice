@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+div.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+div.b,
+div.a {
+  border: 2px solid seagreen;
+}
+.div1 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border: 2px solid slateblue;
+}
+.div2 {
+  border: 2px solid salmon;
+  clear: left;
+}
+/* .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+/* .clearfix{
+    height:200px;
+} */
+.clearfix {
+  overflow: auto;
+}

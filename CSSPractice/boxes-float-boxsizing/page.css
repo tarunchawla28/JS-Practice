@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.header,
+.footer {
+  background-color: grey;
+  padding: 15px;
+  color: white;
+}
+.clearfix {
+  overflow: auto;
+}
+/* div.column ul{
+  float: left;
+  padding: 20px;
+} */
+.column {
+  float: left;
+  padding: 15px;
+}
+.menu {
+  width: 25%;
+}
+.content {
+  width: 75%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  background-color: #33b5e5;
+  color: white;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.menu li:hover {
+  background-color: #0099cc;
+}
